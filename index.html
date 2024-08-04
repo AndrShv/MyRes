@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="../MyRes/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<main>
+    <aside>
+        <ul class="Links">
+            <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </li>
+            <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i>
+                <p>About Me</p>
+            </li>
+            <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                <p>Services</p>
+            </li>
+            <li onclick="Navigate(3)"><i class="fa-solid fa-comments"></i>
+                <p>Contact Me</p>
+            </li>
+        </ul>
+    </aside>
+    <div class="swiper mySwiper">
+        <div class="SlideContainer swiper-wrapper">
+            <div class="swiper-slide home-slide">
+                <div class="HomeContent">
+                    <h1>Hi! I'm <span class="stylized-name">Andrew</span>,</h1>
+                    <h2>A <span class="proffesions">Back-End Developer</span></h2>
+                    <p class="heroline">Hi, my name is Andrew, I am Back-End Developer, Yot can read about me further :)</p>
+                </div>
+                <div class="SideImg">
+                    <div class="top-right-corner">
+                        <hr class="hr1">
+                        <hr class="hr2">
+                    </div>
+                    <img src="https://picsum.photos/id/237/200/200" alt="">
+                    <div class="bottom-left-corner">
+                        <hr class="hr1">
+                        <hr class="hr2">
+                    </div>
+                </div>
+                <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Andrew, <span class="proffesions">A Back-End Developer</span></h3>
+                    <p class="aboutme-deatils">
+                        Hello, my name is Andrew, I am 15 and I am Back-End Developer, I am from Ukraine, Odessa. Now I am studying in 9th grade
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Experience In Java Core:</span> 1 year</li>
+                            <li><span>Country:</span> Ukraine</li>
+                            <li><span>Age</span>:15</li>
+                            <li><span>Phone</span>:+38(068)5512084</li>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>Java</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:99%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>OOP</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:83%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>SOLID</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>DataBase</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:75%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>SPRING</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+            <div class="swiper-slide services">
+                <h1 class="heading">My Skills</h1>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <h2>HTTP Skills</h2>
+                    <p>I have experienced in HTTP, Web Service Architecture, RESTful Architecture, and automated software documentation.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                    <h2>Web Development</h2>
+                    <p>I have skills in Spring Framework (Spring Core, Spring Data, Spring Web, RESTful in Spring, Spring Security), JPA(Hibernate)</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                    <h2>Design Patterns</h2>
+                    <p>I know and use patterns such a: Abstract Factor, Bridge, Facade, Observer, State, Prototype</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h2>Software Developer</h2>
+                    <p>I have experienced in Java for about 1 year</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                    <h2>Database Using</h2>
+                    <p>I have experience in MYSQL, Docker, JDBC</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-vial"></i></div>
+                    <h2>Testing</h2>
+                    <p>I have skills in Mockito Testing & JUnit</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+                    <h2>Web servers</h2>
+                    <p>I know about: Tomcat & WildFly</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-th"></i></div>
+                    <h2>Collections</h2>
+                    <p>I know how to use different collections</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"><i class="fa-solid fa-table"></i></div>
+                    <h2>SQL</h2>
+                    <p>I can do SQL requests & Tables</p>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-slide contactMe">
+                <h1 class="heading">Contact Me In Telegram if I suit you :)  --></h1>
+                <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                    <h3>Mobile Number</h3>
+                    <p>+38(068)5512084</p>
+                </div>
+                <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>Ukraine, Odessa</p>
+                </div>
+                <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>andrey678a@gmail.com</p>
+                </div>
+                <form>
+                    <h2>
+                        <div class="SocialLinks">
+                            <a href="https://t.me/Bob1kGav" target="_blank">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                    </h2>
+                </form>
+            </div>
+
+
+
+        </div>
+</main>
+
+</body>
+</html>
+
+
+
+        
